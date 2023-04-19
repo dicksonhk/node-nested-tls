@@ -1,0 +1,26 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+      "module": "es2022",
+  
+      // "allowUnusedLabels": false,
+      // "allowUnreachableCode": false,
+      "exactOptionalPropertyTypes": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitOverride": true,
+      "noImplicitReturns": true,
+      // "noPropertyAccessFromIndexSignature": true,
+      "noUncheckedIndexedAccess": true,
+      // "noUnusedLocals": true,
+      // "noUnusedParameters": true,
+  
+      // "importsNotUsedAsValues": "error",
+      // "checkJs": true,
+  
+      "ignoreDeprecations": "5.0",
+    },
+    "ts-node": {
+      // Tell ts-node CLI to install the --loader automatically
+      "esm": true
+    }
+  }
